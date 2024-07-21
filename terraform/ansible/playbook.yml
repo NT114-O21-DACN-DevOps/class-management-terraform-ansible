@@ -271,6 +271,15 @@
 - hosts: ansible
   become: yes
   tasks:
+    - name: Update apt cache
+      apt:
+        update_cache: yes
+
+    - name: Install OpenJDK 21
+      apt:
+        name: openjdk-21-jdk
+        state: present
+
     - name: Install kubectl
       apt:
         name: kubectl=1.28.1-1.1
@@ -289,3 +298,4 @@
         dest: /home/ubuntu/.kube/config
         owner: ubuntu
         mode: 0644
+        

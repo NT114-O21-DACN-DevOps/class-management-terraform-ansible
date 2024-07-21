@@ -34,7 +34,7 @@ variable "master_instance_type" {
 
 variable "worker_instance_type" {
   type = string
-  default = "t2.medium"
+  default = "t2.large"
 }
 
 variable "cidr_vpc" {
