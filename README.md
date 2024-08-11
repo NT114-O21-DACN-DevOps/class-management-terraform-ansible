@@ -47,7 +47,7 @@ This repo contains the source code for provisioning and configuration [Kubernete
 ### Prerequisites
 
 - **AWS Account**: Ensure you have an [AWS account](https://signin.aws.amazon.com/signup?request_type=register) with the necessary permissions.
-- **AWS CLI**: After installing [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), you need to configure authentication with AWS by providing `aws_access_key_id` & `aws_secret_access_key`.
+- **AWS CLI**: After installing [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html), you need to configure authentication with AWS by providing `aws_access_key_id` & `aws_secret_access_key`.<br>
 &rarr; You can follow [this](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html) to create your own access key.
 - **Terraform**: Make sure you installed [Terraform](https://developer.hashicorp.com/terraform/install) to use the `terraform` command.
 
